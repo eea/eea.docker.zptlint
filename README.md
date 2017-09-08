@@ -10,6 +10,9 @@
 
 ## Usage
 
-```console
-$ docker run --rm -v /path/to/python/code:/code eeacms/zptlint
-```
+
+    $ docker run -i --rm -v /path/to/python/code:/code eeacms/zptlint
+
+or
+
+    $ docker run -i --rm eeacms/zptlint https://github.com/eea/eea.alchemy.git
