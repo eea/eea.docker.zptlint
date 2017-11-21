@@ -30,7 +30,7 @@ if [ ! -z "$GIT_SRC" ]; then
 fi
 
 if [ "$CMD" = "zptlint" ]; then
-  find /code -regex ".*\.[c|z]*pt" -exec zptlint {} \;
+  find /code -regex ".*\.[c|z]*pt" -print0 | xargs -0 -r zptlint
 else
   exec "$@"
 fi
