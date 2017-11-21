@@ -6,6 +6,7 @@
 ## Supported tags and respective `Dockerfile` links
 
 - [`latest` (*Dockerfile*)](https://github.com/eea/eea.docker.zptlint/blob/master/Dockerfile)
+- [`0.2.5.2` (*Dockerfile*)](https://github.com/eea/eea.docker.zptlint/blob/0.2.5.2/Dockerfile)
 - [`0.2.5.1` (*Dockerfile*)](https://github.com/eea/eea.docker.zptlint/blob/0.2.5.1/Dockerfile)
 - [`0.2.5` (*Dockerfile*)](https://github.com/eea/eea.docker.zptlint/blob/0.2.5/Dockerfile)
 
