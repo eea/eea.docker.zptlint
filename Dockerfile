@@ -1,7 +1,7 @@
 FROM python:2-alpine
 MAINTAINER "EEA: IDM2 A-Team" <eea-edw-a-team-alerts@googlegroups.com>
 
-ENV ZPTLINT_VERSION=0.2.5
+ENV ZPTLINT_VERSION=0.2.5rc1
 
 RUN apk add --no-cache --virtual .build-deps gcc musl-dev \
  && apk add --no-cache --virtual .run-deps git \
